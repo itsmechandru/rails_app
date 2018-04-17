@@ -53,5 +53,5 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   #auto reload project
-  config.middleware.use(Rack::LiveReload, source: :vendored)
+  # config.middleware.use(Rack::LiveReload, source: :vendored)
 end

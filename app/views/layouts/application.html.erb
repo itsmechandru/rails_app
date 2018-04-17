@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>FirstApp</title>
+    <meta charset="utf-8"/>
+    <title>ICREM</title>
     <%= csrf_meta_tags %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
-  </body>
+    <!-- Begin page -->
+    <div id="wrapper">
+      <%= render 'shared/sidebar' %>
+      <div class="content-page">
+        <%= render 'shared/topbar'%>
+
+        <div class="content">
+          <div class="container-fluid">
+            <%= yield %>
+          </div> <!-- container -->
+        </div> <!-- content -->
+
+      <%= render 'shared/footer' %>
+      </div>
+
+    </div>
+    <!-- END wrapper -->
+    </body>
 </html>
