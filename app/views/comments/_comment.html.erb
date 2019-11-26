@@ -1,19 +1,21 @@
-<div class="container">
-  <div class="row">
-    <div class="col-sm-5">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <strong><%= comment.commenter %></strong> <span class="text-muted">commented 5 days ago</span>
-        </div>
-        <div class="panel-body">
-          <%= comment.body %>
-        </div><!-- /panel-body -->
-      </div><!-- /panel panel-default -->
-    </div>
-    <div class="col-sm-2">
-      <%= link_to 'Delete', [comment.article, comment],
-                  method: :delete,
-                  data: {confirm: 'Are you sure? '} %>
+<% if comment.commenter %>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <strong><%= comment.commenter %></strong> <span class="text-muted">commented 5 days ago</span>
+          </div>
+          <div class="panel-body">
+            <%= comment.body %>
+          </div><!-- /panel-body -->
+        </div><!-- /panel panel-default -->
+      </div>
+      <div class="col-sm-2">
+        <%= link_to 'Delete', [comment.article, comment],
+                    method: :delete,
+                    data: {confirm: 'Are you sure? '} %>
+      </div>
     </div>
   </div>
-</div>
+<% end %>
