@@ -17,5 +17,11 @@ module FirstApp
     # the framework and any gems in your application.
     config.assets.paths << Rails.root.join('assets', 'fonts')
     config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
+
+    #Default URL in Action Mailer view
+    config.action_mailer.default_url_options = { host: 'localhost:3030' }
+
+    #Adding images in the Action Mailer view
+    config.action_mailer.asset_host = 'http://localhost:3030'
   end
 end
