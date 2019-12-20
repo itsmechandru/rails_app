@@ -13,8 +13,8 @@ File: Icons
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/assets/fonts/fontawesome-webfont.eot?v=4.7.0");
-  src: url("/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("/assets/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("/assets/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("/assets/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("/assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  src: url("fontawesome-webfont.eot?v=4.7.0");
+  src: url("fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("fontawesome-webfont.woff?v=4.7.0") format("woff"), url("fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -3056,8 +3056,8 @@ File: Icons
 /* MaterialDesignIcons.com */
 @font-face {
   font-family: "Material Design Icons";
-  src: url("/assets/fonts/materialdesignicons-webfont.eot?v=2.0.46");
-  src: url("/assets/fonts/materialdesignicons-webfont.eot?#iefix&v=2.0.46") format("embedded-opentype"), url("/assets/fonts/materialdesignicons-webfont.woff2?v=2.0.46") format("woff2"), url("/assets/fonts/materialdesignicons-webfont.woff?v=2.0.46") format("woff"), url("/assets/fonts/materialdesignicons-webfont.ttf?v=2.0.46") format("truetype"), url("/assets/fonts/materialdesignicons-webfont.svg?v=2.0.46#materialdesigniconsregular") format("svg");
+  src: url("materialdesignicons-webfont.eot?v=2.0.46");
+  src: url("materialdesignicons-webfont.eot?#iefix&v=2.0.46") format("embedded-opentype"), url("materialdesignicons-webfont.woff2?v=2.0.46") format("woff2"), url("materialdesignicons-webfont.woff?v=2.0.46") format("woff"), url("materialdesignicons-webfont.ttf?v=2.0.46") format("truetype"), url("materialdesignicons-webfont.svg?v=2.0.46#materialdesigniconsregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -11512,8 +11512,8 @@ File: Icons
 
 @font-face {
   font-family: "feather";
-  src: url("/assets/fonts/feather-webfont.eot");
-  src: url("/assets/fonts/feather-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/feather-webfont.woff") format("woff"), url("/assets/fonts/feather-webfont.ttf") format("truetype"), url("/assets/fonts/feather-webfont.svg#feather") format("svg");
+  src: url("feather-webfont.eot");
+  src: url("feather-webfont.eot?#iefix") format("embedded-opentype"), url("feather-webfont.woff") format("woff"), url("feather-webfont.ttf") format("truetype"), url("feather-webfont.svg#feather") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -12076,8 +12076,8 @@ File: Icons
 
 @font-face {
   font-family: "dripicons-v2";
-  src: url("/assets/fonts/dripicons-v2.eot");
-  src: url("/assets/fonts/dripicons-v2.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/dripicons-v2.woff") format("woff"), url("/assets/fonts/dripicons-v2.ttf") format("truetype"), url("/assets/fonts/dripicons-v2.svg#dripicons-v2") format("svg");
+  src: url("dripicons-v2.eot");
+  src: url("dripicons-v2.eot?#iefix") format("embedded-opentype"), url("dripicons-v2.woff") format("woff"), url("dripicons-v2.ttf") format("truetype"), url("dripicons-v2.svg#dripicons-v2") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -12908,8 +12908,8 @@ File: Icons
 
 @font-face {
   font-family: "simple-line-icons";
-  src: url("/assets/fonts/Simple-Line-Icons.eot?-i3a2kk");
-  src: url("/assets/fonts/Simple-Line-Icons.eot?#iefix-i3a2kk") format("embedded-opentype"), url("/assets/fonts/Simple-Line-Icons.ttf?-i3a2kk") format("truetype"), url("/assets/fonts/Simple-Line-Icons.woff2?-i3a2kk") format("woff2"), url("/assets/fonts/Simple-Line-Icons.woff?-i3a2kk") format("woff"), url("/assets/fonts/Simple-Line-Icons.svg?-i3a2kk#simple-line-icons") format("svg");
+  src: url("Simple-Line-Icons.eot?-i3a2kk");
+  src: url("Simple-Line-Icons.eot?#iefix-i3a2kk") format("embedded-opentype"), url("Simple-Line-Icons.ttf?-i3a2kk") format("truetype"), url("Simple-Line-Icons.woff2?-i3a2kk") format("woff2"), url("Simple-Line-Icons.woff?-i3a2kk") format("woff"), url("Simple-Line-Icons.svg?-i3a2kk#simple-line-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
