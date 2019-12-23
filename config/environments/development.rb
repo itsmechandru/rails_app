@@ -80,5 +80,7 @@ Rails.application.configure do
     authentication:       'plain',
     enable_starttls_auto: true
   }
+  #devise gem
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3030 }
 
 end
