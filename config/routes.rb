@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users
-  # resources :users
-  get 'dashboard/index'
+
+  devise_scope :user do
+    get 'login', to: 'devise/sessions#new'
+  end
 
   resources :articles do
     resources :comments
