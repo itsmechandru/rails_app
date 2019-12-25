@@ -88,5 +88,5 @@ RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
   Capybara.javascript_driver = :poltergeist
   Capybara.server = :puma
-  
+
 end
