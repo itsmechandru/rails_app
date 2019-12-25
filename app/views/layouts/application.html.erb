@@ -21,13 +21,22 @@
     <div class="content">
       <div class="container-fluid">
         <%= yield %>
-      </div> <!-- container -->
-    </div> <!-- content -->
-
+      </div>
+    </div>
     <%= render 'shared/footer' %>
   </div>
 
 </div>
 <!-- END wrapper -->
+<script>
+    $(function(){
+        $('.notification-list a').click(function(){
+            if($(this).closest('li').hasClass('show'))
+                $(this).closest('li').removeClass('show');
+            else
+                $(this).closest('li').addClass('show');
+        });
+    });
+</script>
 </body>
 </html>
