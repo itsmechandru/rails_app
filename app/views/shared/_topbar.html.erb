@@ -141,10 +141,6 @@
             <h6 class="text-overflow m-0">Welcome !</h6>
           </div>
           <!-- item-->
-          <a href="/users/edit" class="dropdown-item notify-item">
-            <i class="fi-head"></i> <span>My Account</span>
-          </a>
-          <!-- item-->
           <a href="javascript:void(0);" class="dropdown-item notify-item">
             <i class="fi-cog"></i> <span>Settings</span>
           </a>
@@ -156,10 +152,24 @@
           <a href="javascript:void(0);" class="dropdown-item notify-item">
             <i class="fi-lock"></i> <span>Lock Screen</span>
           </a>
-          <!-- item-->
-          <a rel="nofollow" data-method="delete" href="/users/sign_out" class="dropdown-item notify-item">
-            <i class="fi-power"></i> <span>Logout</span>
-          </a>
+          <% if user_signed_in? %>
+            <!-- item-->
+            <a href="/users/edit" class="dropdown-item notify-item">
+              <i class="fi-head"></i> <span>My Account</span>
+            </a>
+            <!-- item-->
+            <a rel="nofollow" data-method="delete" href="/users/sign_out" class="dropdown-item notify-item">
+              <i class="fi-power"></i> <span>Logout</span>
+            </a>
+          <% else %>
+            <a href="/login" class="dropdown-item notify-item">
+              <i class="fi-head"></i> <span>Login</span>
+            </a>
+            <!-- item-->
+            <a href="/signup" class="dropdown-item notify-item">
+              <i class="fi-power"></i> <span>Signup</span>
+            </a>
+          <% end %>
         </div>
       </li>
     </ul>
