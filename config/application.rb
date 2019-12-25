@@ -23,5 +23,7 @@ module FirstApp
 
     #Adding images in the Action Mailer view
     config.action_mailer.asset_host = 'http://localhost:3030'
+    config.action_controller.include_all_helpers = false
+
   end
 end
