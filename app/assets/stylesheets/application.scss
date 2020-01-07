@@ -10,14 +10,9 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
- *= require_self
  */
 // Partials - main css files
-@import "partials/*";
-
-// Variables
-@import "base/variables";
-// Default styles
-@import "base/default";
-@import "responsive/*";
+@import "bootstrap/css/bootstrap.min";
+@import "github-calendar/dist/github-calendar.css";
+@import "styles";
+@import "scss/styles";
