@@ -15,7 +15,7 @@ module FirstApp
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
-    config.assets.paths << Rails.root.join('assets', 'fonts')
+    config.assets.paths << Rails.root.join('assets', 'fonts', 'app')
     config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
 
     #Default URL in Action Mailer view
